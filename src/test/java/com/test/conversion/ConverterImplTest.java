@@ -17,8 +17,8 @@ public class ConverterImplTest {
 	{
 		ConverterImpl ci = new ConverterImpl();
 		float actual = ci.getConversionRate("GBP","INR",23.50f);
-		//float expected = 2127.1826f;
-		float expected = 2136.1826171875f;
+		float expected = 2127.92333984375f;
+		//float expected = 2136.1826171875f;
 		assertEquals(actual, expected,0.99999);
 	}
 	
