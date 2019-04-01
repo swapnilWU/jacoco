@@ -20,7 +20,7 @@ public class ConverterImplTest {
 		System.out.println("actual is "+actual);
 		
 		double expected = 2136.1826171875;
-		float expected = 2136.1826171875f;
+		//float expected = 2136.1826171875f;
 		assertEquals(expected, actual);
 	}
 	
