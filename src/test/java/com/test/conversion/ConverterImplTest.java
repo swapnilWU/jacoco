@@ -19,9 +19,9 @@ public class ConverterImplTest {
 		double actual = ci.getConversionRate("GBP","INR",23.50f);
 		System.out.println("actual is "+actual);
 		
-		double expected = 2127.9;
+		double expected = 2136.182;
 		//float expected = 2136.1826171875f;
-		assertEquals(actual, expected,0.99999);
+		assertEquals(actual, expected,0.99999999);
 	}
 	
 	@Test
